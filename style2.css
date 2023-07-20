@@ -1,0 +1,67 @@
+/*Allows us to control the outside and inside spacing of the page with the margin and padding.*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*Allows to put a image on the background and make its height and width 100 and make its position center and size cover.*/
+.Background2{
+    background-image: url(https://img.freepik.com/premium-photo/grungy-textured-blank-surface-abstract-grey-background-dirty-poster-wallpaper-with-rough-grained-sto_124507-10829.jpg);
+    height: 100;
+    width: 100;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 200px;
+}
+/*Allows us to remove the bullet points with LST: none; add no outside or inside spacing with margin and padding allow us to see the background with overflow hidden and change the background color.*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+/*Float left makes the list items float to the left.*/
+li{
+    float: left;
+}
+/*Allows us to remove the underline with TD: none; change the color the inside spacing and hide a element with display: block;.*/
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 16px 32px;
+    display: block;
+  }  
+  /*Changes the words color.*/
+.word2{
+    color: cyan;
+ } 
+ /*Color changes the headings text color and background color changes the heading text highlight color.*/ 
+.H1_Text2{
+    color: cyan;
+   }   
+   /*Color changes the heading twos text color and background color changes the heading text highlight color.*/
+.H2_Text{
+    color: cyan;
+  }  
+  /*Allows us to change one of the listed items color.*/
+.Highlight2{
+    color: red;
+}
+ /*Allows us to alter the images width height the borders size and color the outside and inside spacing with padding and margin and makes the text align at the center.*/
+.img1{
+    width: 328px;
+    height: 200px;
+    border: 10px solid #030215;
+    padding: 80px;
+    margin: 5px;
+    text-align: center;
+}
+ /*Allows us to alter the images width height the borders size and color the outside and inside spacing with padding and margin and makes the text align at the center.*/
+.img2{
+    width: 328px;
+    height: 200px;
+    border: 10px solid #000000;
+    padding: 80px;
+    margin: 5px;
+    text-align: center;
+}

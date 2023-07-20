@@ -1,0 +1,87 @@
+/*Allows us to control the outside and inside spacing of the page with the margin and padding.*/
+*{ 
+    margin: 0; 
+    padding: 0;  
+} 
+
+/*Allows to put a image on the background and make its height and width 100 and make its position center and size cover.*/
+.Background{
+    background-image: url(https://drugfree.org/wp-content/uploads/2015/02/The-Intersection-of-Drugs-Alcohol-and-Tobacco-Use-Join-Together-News-Service-from-the-Partnership-for-Drug-Free-Kids.jpg); 
+    height: 100;  
+    width: 100;  
+    background-position: center; 
+    background-size: cover;  
+} 
+
+/*Allows us to remove the bullet points with LST: none; add no outside or inside spacing with margin and padding allow us to see the background with overflow hidden and change the background color.*/
+ul{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+/*Float left makes the list items float to the left.*/
+li{
+    float: left;
+}
+
+/*Allows us to remove the underline with TD: none; change the color the inside spacing and hide a element with display: block;.*/
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 16px 32px;
+    display: block;
+}
+
+/*Changes the words color.*/
+.word{
+    color: cyan;
+}
+
+/*Color changes the headings text color and background color changes the heading text highlight color.*/
+.H1_Text{
+    color: cyan;
+    background-color: black;
+}
+
+/*Allows us to change one of the listed items color.*/
+.Highlight{
+    color: red;
+}
+/*display flex makes the text line up in a colomn flex wrap wrap allows us to ad a wrap into a flex box and justify content defines how the browser distributes spacing content items.*/
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+/*Makes the width 250 changes the borders size and color changes the inside and outside spacing with margin and padding and makes the text allign to the center.*/
+.product{
+    width: 250px;
+    border: 1px solid #030215;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+
+}
+/*Controls the images width max height and makes the image cover the entire box.*/
+.product img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+
+}
+/*Changes the heading 2 color and changes the outside spacing with the margin top.*/
+.product h2{
+    color: black;
+    margin-top: 10px;
+
+}
+/*Changes the paragraphs color and changes the outside spacing with the margin top.*/
+.product p{
+    color: black;
+    margin-top: 5px;
+
+}
